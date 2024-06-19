@@ -1,0 +1,97 @@
+#spinner{
+    height:200px;
+    width:200px;
+    border-radius:50%;
+    border:7px solid;
+    border-color: rgb(174, 9, 9) rgb(196, 188, 188) rgb(183, 121, 5) rgb(5, 84, 5) ;
+    animation:rotate 1.5s linear infinite;
+    position:absolute;
+    left:40px;
+    background-image: url(dog.jpeg);
+    background-size: contain;
+    
+
+
+    
+    
+}
+@keyframes rotate {
+    to {transform:rotate(200deg);}
+}
+#spinner2{
+    height:200px;
+    width:200px;
+    border-radius:50%;
+    border:7px solid;
+    border-color: red whitesmoke orange green ;
+    animation:rotate 1.5s linear infinite;
+    position:absolute;
+    left:340px;
+    top:20px;
+    background-image: url(puppy.jpg);
+    background-size: contain;
+    
+
+    
+}
+@keyframes rotate {
+    to {transform:rotate(200deg);}
+}
+
+#spinner3{
+    height:200px;
+    width:200px;
+    border-radius:50%;
+    border:7px solid;
+    border-color: red whitesmoke orange green ;
+    animation:rotate 1.5s linear infinite;
+    position:absolute;
+    left:650px;
+    top:20px;
+    background-image: url(white.jpg);
+    background-size: contain;
+    
+    
+    
+
+}
+@keyframes rotate {
+    to {transform:rotate(200deg);}
+}
+#spinner4{
+    height:200px;
+    width:200px;
+    border-radius:50%;
+    border:7px solid;
+    border-color: red whitesmoke orange green ;
+    animation:rotate 1.5s linear infinite;
+    position:absolute;
+    left:950px;
+    top:20px;
+    background-image: url(two.jpeg);
+    background-size: cover;
+    
+    
+
+}
+@keyframes rotate {
+    to {transform:rotate(200deg);}
+}
+
+#me{
+    height:40px;
+    width:180px;
+    border-radius: 10%;
+    background-color: rgb(178, 174, 167);
+    border:solid black;
+    font-size:xx-large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 1000;
+    position:absolute;
+    top:350px;
+    left:585px;
+
+    color:black;
+    text-align: center;
+
+}
